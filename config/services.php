@@ -34,5 +34,8 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
-
+    'yandex_weather' => [
+        'access_key' => env('YANDEX_WEATHER_ACCESS_KEY'),
+        'base_url' => env('YANDEX_WEATHER_BASE_URL'),
+    ],
 ];
